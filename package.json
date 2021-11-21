@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://islam98.github.io/test",
+  "homepage": "http://islam98.github.io/profile",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.6.0",
