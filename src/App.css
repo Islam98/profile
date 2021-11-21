@@ -1,0 +1,178 @@
+/* import roboto condensed google font*/ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/*initialize variables for colors*/
+:root {
+  --white: #fff;
+  --grey: #808080;
+  --turquoise: #40E0D0;
+  --dark: #1111;
+}
+
+/*and set it to the font family of the portfolio page*/
+body {
+  font-family: "Roboto Condensed" sans-serif;
+  padding-top: 5% !important;
+}
+
+/***************************************************/
+/*Navbar css in here only, while the rest components are mapped to each file's css*/
+/* change the font weight and space in links of the navbar*/
+nav a.nav-link {
+  font-weight: 350;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/*change name style if shown*/
+.navbar-brand {
+  font-weight: 600;
+  font-size: x-large !important;
+  color: var(--turquoise) !important;
+}
+
+/* for each link in the navbar change its color and space between each other*/
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--turquoise) !important;  /*use the variable named white, and use important to override the default bootstrap color*/
+  border-top: 0.19rem solid var(--dark);   /*add the top border to prevent the shift to down of the link when clicked */
+}
+
+/*change link attitude on select*/
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-top: 0.19rem solid var(--grey);
+}
+
+/*change link attitude on hover*/
+.navbar-nav > li > a:hover {
+  border-top: 0.19rem solid var(--grey);
+}
+
+
+/*********************************/
+/*Header*/
+.header-wraper {
+  position: relative;
+
+}
+
+/* on hover on social links change its color to turquoise */
+.socialIconchangeColor:hover {
+  color: #40E0D0 !important;
+}
+
+/* About section blink cursor in autotyping text */
+.ityped-cursor {
+  font-size: 1.75rem;
+  opacity: 1;
+  animation: blink 0.5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  50% {
+      opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*****************************************************************************************************************************************/
+/* Experience section tabs style */
+.tab.nav.nav-tabs {
+  border-bottom: none;
+}
+
+.tab .nav-link {
+  color: darkslategrey !important;
+  background-color: #1115 !important;
+  /*opacity: 65%;*/
+}
+.tab .nav-link.active {
+  color: darkslategrey !important;
+  background-color: var(--turquoise) !important;
+  /*height: 120% !important;
+  margin-top: -0.25rem !important;*/
+  /*padding-bottom: 1rem!important;*/
+}
+
+.tab1 {
+  border: none !important;
+}
+.tab2 {
+  border: none !important;
+}
+
+.tab1.active {
+  margin-top: -0.25rem !important;
+  z-index: 2 !important;
+  transform: scale(1.2);
+  position: relative;
+  border: none !important;
+}
+.tab1:hover {
+  border: none !important;
+}
+
+.tab2.active {
+  margin-top: -0.25rem !important;
+  position: relative;
+  z-index: 2 !important;
+  transform: scale(1.2) !important;
+  border: none !important;
+}
+.tab2:hover {
+  border: none !important;
+}
+
+/**********************************************************************************************************************/
+/* Main section style */
+/*
+.profileCard {
+height:450px;
+}
+.profileCard .ppbg {
+opacity: 1;
+filter: blur(0.1rem);
+/* transform: scale(2.8); */ /*
+}
+.profileCard .card-content {
+top: 50%;
+}
+.profileCard .profilepicture {
+border-radius: 35%;
+bottom: 50%;
+left: 28%;
+width: 40%;
+box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+border: 2px solid rgba(255, 255, 255, 1);
+}
+*/
+/*  OR  */
+.profileCard {
+height:450px;
+}
+.profileCard .ppbg {
+opacity: 1;
+filter: blur(0.065rem);
+/*transform: scale(); /*or scale by 4.3*/
+}
+.profileCard .card-content {
+top: 50%;
+}
+
+
+/* Timeline homepage style */
+.timelineComponent {
+  right:10%;
+  transform: scale(0.8);
+}
+.dateofBachelor {
+  margin-inline-end: -10% !important;
+  margin-top: 2rem;
+}
+
+
