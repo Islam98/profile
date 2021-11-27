@@ -18,7 +18,7 @@ const Home = () => {
             typeSpeed: 40,
             backDelay: 1500,
             backSpeed: 25,
-            strings: ['Data Science Engineer', 'Machine Learning Engineer', 'Full-Stack Web Developer', 'Android Developer', 'Game Developer'] })
+            strings: ['Machine Learning Engineer', 'Full-Stack Web Developer', 'Android Developer', 'Game Developer'] })
     }, [])
 
     return (

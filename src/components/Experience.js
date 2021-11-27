@@ -23,7 +23,7 @@ const Experience = () => {
                                     <img src={GbAch} class="card-img-top" alt="Gameball Achievement"/>
                                     <div class="card-body bg-info bg-opacity-10">
                                         <h5 class="card-title">Data Science Internship - Gameball</h5>
-                                        <p class="card-text">Applied multiple data pre-processing (Cleaning, Column Encoding, etc..) and used Kmeans approach to group similar players, and recommended products to players of the same cluster</p>
+                                        <p class="card-text">Applied multiple data pre-processing (Cleaning, Column Encoding, etc..) and used Kmeans approach to group similar players, applied exploratory analysis and visualizations, and recommended products to players of the same cluster</p>
                                         <p class="lead text-muted">AUGUST-SEPTEMBER 2021</p>
                                     </div>
                                 </div>
