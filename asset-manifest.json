@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.41e47acc.chunk.css",
+    "main.css": "/profile/static/css/main.3c5ee8e6.chunk.css",
     "main.js": "/profile/static/js/main.3917c22e.chunk.js",
     "main.js.map": "/profile/static/js/main.3917c22e.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.e70bdc6d.js",
@@ -12,7 +12,7 @@
     "static/js/3.bdff4f0a.chunk.js.map": "/profile/static/js/3.bdff4f0a.chunk.js.map",
     "index.html": "/profile/index.html",
     "static/css/2.4f315655.chunk.css.map": "/profile/static/css/2.4f315655.chunk.css.map",
-    "static/css/main.41e47acc.chunk.css.map": "/profile/static/css/main.41e47acc.chunk.css.map",
+    "static/css/main.3c5ee8e6.chunk.css.map": "/profile/static/css/main.3c5ee8e6.chunk.css.map",
     "static/js/2.79bdd77a.chunk.js.LICENSE.txt": "/profile/static/js/2.79bdd77a.chunk.js.LICENSE.txt",
     "static/media/Android.bd6cd6c9.JPG": "/profile/static/media/Android.bd6cd6c9.JPG",
     "static/media/CareTech'19 _Bdaya'19.763f9c75.png": "/profile/static/media/CareTech'19 _Bdaya'19.763f9c75.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.e70bdc6d.js",
     "static/css/2.4f315655.chunk.css",
     "static/js/2.79bdd77a.chunk.js",
-    "static/css/main.41e47acc.chunk.css",
+    "static/css/main.3c5ee8e6.chunk.css",
     "static/js/main.3917c22e.chunk.js"
   ]
 }
