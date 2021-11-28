@@ -23,7 +23,7 @@ const Home = () => {
 
     return (
         <div className="vh-200" style={{overflow: 'hidden'}}>
-          <div class="row align-items-center mt-5">
+          <div class="row align-items-center">
             {/* image area */}
             <Slide direction="up" in={true} mountOnEnter unmountOnExit timeout={1500}>
               <div class="col-md-6 bg-opacity-10 d-flex justify-content-center align-items-end rounded-circle h-100">
