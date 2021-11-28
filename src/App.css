@@ -1,5 +1,4 @@
 /* import roboto condensed google font*/ 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 /*initialize variables for colors*/
 :root {
@@ -11,7 +10,7 @@
 
 /*and set it to the font family of the portfolio page*/
 body {
-  font-family: "Roboto Condensed" sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   padding-top: 5% !important;
 }
 
