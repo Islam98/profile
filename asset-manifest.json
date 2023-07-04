@@ -1,34 +1,25 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.5f44ee86.chunk.css",
-    "main.js": "/profile/static/js/main.3917c22e.chunk.js",
-    "main.js.map": "/profile/static/js/main.3917c22e.chunk.js.map",
-    "runtime-main.js": "/profile/static/js/runtime-main.e70bdc6d.js",
-    "runtime-main.js.map": "/profile/static/js/runtime-main.e70bdc6d.js.map",
-    "static/css/2.4f315655.chunk.css": "/profile/static/css/2.4f315655.chunk.css",
-    "static/js/2.79bdd77a.chunk.js": "/profile/static/js/2.79bdd77a.chunk.js",
-    "static/js/2.79bdd77a.chunk.js.map": "/profile/static/js/2.79bdd77a.chunk.js.map",
-    "static/js/3.bdff4f0a.chunk.js": "/profile/static/js/3.bdff4f0a.chunk.js",
-    "static/js/3.bdff4f0a.chunk.js.map": "/profile/static/js/3.bdff4f0a.chunk.js.map",
+    "main.css": "/profile/static/css/main.bc24fd9d.css",
+    "main.js": "/profile/static/js/main.89bc7422.js",
+    "static/js/787.b9ec5bb0.chunk.js": "/profile/static/js/787.b9ec5bb0.chunk.js",
+    "static/media/Gameball_Achievement.jpg": "/profile/static/media/Gameball_Achievement.de47506aadaf9615b7fa.jpg",
+    "static/media/Machine_Learning.jpg": "/profile/static/media/Machine_Learning.3279aaaf5cd21b45485c.jpg",
+    "static/media/Data_Engineering.jpg": "/profile/static/media/Data_Engineering.e180257c8bad6234c9da.jpg",
+    "static/media/Left2Dead_Collage.jpg": "/profile/static/media/Left2Dead_Collage.7805be8b546c828dc968.jpg",
+    "static/media/Tazkarti_Team.jpg": "/profile/static/media/Tazkarti_Team.755fa30815e56b0baab6.jpg",
+    "static/media/CareTech'19 _Bdaya'19.png": "/profile/static/media/CareTech'19 _Bdaya'19.763f9c757ef3156100f4.png",
+    "static/media/Website.JPG": "/profile/static/media/Website.789a7830497f09d1f119.JPG",
+    "static/media/Android.JPG": "/profile/static/media/Android.bd6cd6c9d8d5de16c46b.JPG",
+    "static/media/bg_ppimg.jpg": "/profile/static/media/bg_ppimg.4f62bff3f5c779324cec.jpg",
+    "static/media/RITEC Logo.jpeg": "/profile/static/media/RITEC Logo.9c4c210b7b416faf159b.jpeg",
     "index.html": "/profile/index.html",
-    "static/css/2.4f315655.chunk.css.map": "/profile/static/css/2.4f315655.chunk.css.map",
-    "static/css/main.5f44ee86.chunk.css.map": "/profile/static/css/main.5f44ee86.chunk.css.map",
-    "static/js/2.79bdd77a.chunk.js.LICENSE.txt": "/profile/static/js/2.79bdd77a.chunk.js.LICENSE.txt",
-    "static/media/Android.bd6cd6c9.JPG": "/profile/static/media/Android.bd6cd6c9.JPG",
-    "static/media/CareTech'19 _Bdaya'19.763f9c75.png": "/profile/static/media/CareTech'19 _Bdaya'19.763f9c75.png",
-    "static/media/Data_Engineering.e180257c.jpg": "/profile/static/media/Data_Engineering.e180257c.jpg",
-    "static/media/Gameball_Achievement.de47506a.jpg": "/profile/static/media/Gameball_Achievement.de47506a.jpg",
-    "static/media/Left2Dead_Collage.7805be8b.jpg": "/profile/static/media/Left2Dead_Collage.7805be8b.jpg",
-    "static/media/Machine_Learning.3279aaaf.jpg": "/profile/static/media/Machine_Learning.3279aaaf.jpg",
-    "static/media/Tazkarti_Team.755fa308.jpg": "/profile/static/media/Tazkarti_Team.755fa308.jpg",
-    "static/media/Website.789a7830.JPG": "/profile/static/media/Website.789a7830.JPG",
-    "static/media/bg_ppimg.4f62bff3.jpg": "/profile/static/media/bg_ppimg.4f62bff3.jpg"
+    "main.bc24fd9d.css.map": "/profile/static/css/main.bc24fd9d.css.map",
+    "main.89bc7422.js.map": "/profile/static/js/main.89bc7422.js.map",
+    "787.b9ec5bb0.chunk.js.map": "/profile/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e70bdc6d.js",
-    "static/css/2.4f315655.chunk.css",
-    "static/js/2.79bdd77a.chunk.js",
-    "static/css/main.5f44ee86.chunk.css",
-    "static/js/main.3917c22e.chunk.js"
+    "static/css/main.bc24fd9d.css",
+    "static/js/main.89bc7422.js"
   ]
 }
