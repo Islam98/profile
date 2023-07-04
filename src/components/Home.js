@@ -10,16 +10,16 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Home = () => {
 
-    const textRef = useRef();
+    // const textRef = useRef();
 
-    useEffect(() => {
-        init(textRef.current, { 
-            showCursor: true,
-            typeSpeed: 40,
-            backDelay: 1500,
-            backSpeed: 25,
-            strings: ['Machine Learning Engineer', 'Full-Stack Web Developer', 'Android Developer', 'Game Developer'] })
-    }, [])
+    // useEffect(() => {
+    //     init(textRef.current, { 
+    //         showCursor: true,
+    //         typeSpeed: 40,
+    //         backDelay: 1500,
+    //         backSpeed: 25,
+    //         strings: ['Machine Learning Engineer', 'Full-Stack Web Developer', 'Android Developer', 'Game Developer'] })
+    // }, [])
 
     return (
         <div className="vh-200" style={{overflow: 'hidden'}}>
@@ -31,7 +31,7 @@ const Home = () => {
                   <img src={ppbgimg} alt="profile-bg" class="ppbg"/>
                   <div class="pt-3 h-100 position-absolute card-content">
                     <h3>Islam Omar Elsweify</h3><p class="d-block mt-2">Computer Science and Engineering Fresh Graduate</p>
-                    <h4 class="m-2">Software Engineer</h4><h4> <span ref={textRef} style={ /* add color gradient to text color*/ {background: '-webkit-linear-gradient(45deg, #008B8B, #40E0D0)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}} className="autoTypeStyle"></span></h4>
+                    <h4 class="m-2">Software Engineer</h4>{/* <h4> <span ref={textRef} style={ /* add color gradient to text color {background: '-webkit-linear-gradient(45deg, #008B8B, #40E0D0)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}} className="autoTypeStyle"></span></h4> */}
                   </div>
                 </div>
               </div>

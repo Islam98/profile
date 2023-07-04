@@ -7,6 +7,8 @@ import DECourse from './../Assets/Data_Engineering.jpg';
 import UnityCourse from './../Assets/Left2Dead_Collage.jpg';
 import SEcourse from './../Assets/Website.JPG';
 import AndroidStudiocourse from './../Assets/Android.JPG';
+import RITECLOGO from './../Assets/RITEC Logo.jpeg';
+import DandyLOGO from './../Assets/MeetDandy Logo2.jpg';
 
 const Experience = () => {
     return (
@@ -14,15 +16,42 @@ const Experience = () => {
             <div class="justify-content-center align-items-center d-flex text-light">
                 <h1 style={{color:'#40E0D0'}}> Experience & Projects </h1>
             </div>
-            <Tabs className="tab" defaultActiveKey="internships" transition={true}>
-                <Tab tabClassName="tab1" eventKey="internships" title="Internships">
+            <Tabs className="tab" defaultActiveKey="experience" transition={true}>
+                <Tab tabClassName="tab1" eventKey="experience" title="Experience">
                     <div>
                         <div class="row row-cols-auto row-cols-md-4 g-4">
                             <div class="col">
                                 <div class="card border-info w-100 h-100">
+                                    <img src={DandyLOGO} class="card-img-top" alt="MeetDandy Logo"/>
+                                    <div class="card-body bg-info bg-opacity-10">
+                                            <h4 class="card-title">Analyst - Dandy (NY, United States)</h4> 
+                                        <div class="flex-container-RITEC">
+                                            <h6>Remote&nbsp;</h6><h6 class="card-title"> (Full-Time)</h6>
+                                        </div>
+                                        <p class="card-text">Used Looker and Google Sheets to review and analyze tables to help solve problems, make decisions (e.g: initialize bonuses to get more productivity, study performances and durations to take steps on improving performances), and identify key insights into the business to improve quality and have more output quantity. Used Appscript (JavaScript) to automate redundant operations</p>
+                                        <p class="lead text-muted">January-June 2023</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-info w-100 h-100">
+                                    <img src={RITECLOGO} class="card-img-top" alt="RITEC Logo"/>
+                                    <div class="card-body bg-info bg-opacity-10">
+                                            <h4 class="card-title">Software Engineer - RITEC (Cairo, Egypt)</h4> 
+                                        <div class="flex-container-RITEC">
+                                            <h6>Hybrid&nbsp;</h6><h6 class="card-title"> (Part-Time)</h6>
+                                        </div>
+                                        <p class="card-text">Used Crystal to develop the backend modules of a software application “Balance”. Worked with the team on online microservices product using Java, ArangoDB, PostgreSQL</p>
+                                        <p class="lead text-muted">March-December 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-info w-100 h-100">
                                     <img src={GbAch} class="card-img-top" alt="Gameball Achievement"/>
                                     <div class="card-body bg-info bg-opacity-10">
-                                        <h5 class="card-title">Data Science Internship - Gameball</h5>
+                                        <h4 class="card-title">Data Science - Gameball (Cairo, Egypt)</h4>
+                                        <h6>Hybrid (Internship)</h6>
                                         <p class="card-text">Applied multiple data pre-processing (Cleaning, Column Encoding, etc..) and used Kmeans approach to group similar players, applied exploratory analysis and visualizations, and recommended products to players of the same cluster</p>
                                         <p class="lead text-muted">AUGUST-SEPTEMBER 2021</p>
                                     </div>

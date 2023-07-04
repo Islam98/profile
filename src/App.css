@@ -64,12 +64,12 @@ nav a.nav-link {
 }
 
 /* About section blink cursor in autotyping text */
-.ityped-cursor {
+/* .ityped-cursor {
   font-size: 1.75rem;
   opacity: 1;
   animation: blink 0.5s infinite;
   animation-direction: alternate;
-}
+} */
 
 @keyframes blink {
   50% {
@@ -84,6 +84,14 @@ nav a.nav-link {
 /* Experience section tabs style */
 .tab.nav.nav-tabs {
   border-bottom: none;
+}
+
+.flex-container-RITEC {
+  display: flex;
+}
+
+.flex-container-RITEC > h4 {
+  flex: 0.4;
 }
 
 .tab .nav-link {
@@ -175,4 +183,9 @@ top: 50%;
   margin-top: 2rem;
 }
 
+
+/* Bottom Repo Copyright Link */
+.copyrightLink {
+  text-align: center;
+}
 
