@@ -30,7 +30,7 @@ const Home = () => {
                 <div class="card profileCard overflow-hidden text-center">
                   <img src={ppbgimg} alt="profile-bg" class="ppbg"/>
                   <div class="pt-3 h-100 position-absolute card-content">
-                    <h3>Islam Omar Elsweify</h3><p class="d-block mt-2">Computer Science and Engineering Fresh Graduate</p>
+                    <h3>Islam Omar Elsweify</h3><p class="d-block mt-2">Computer Science and Engineering Graduate</p>
                     <h4 class="m-2">Software Engineer</h4>{/* <h4> <span ref={textRef} style={ /* add color gradient to text color {background: '-webkit-linear-gradient(45deg, #008B8B, #40E0D0)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent'}} className="autoTypeStyle"></span></h4> */}
                   </div>
                 </div>
@@ -47,7 +47,7 @@ const Home = () => {
                     <h2 style={{textShadow: '1px 1px 2px #808080',display:'inline'}}> Graduated with </h2>
                     <h4 style={{textShadow: '1px 1px 4px #40E0D0',display:'inline',fontStyle:'italic'}}> Very Good Degree </h4>
                   </div>
-                  <p style={{fontStyle:'italic',display:'inline'}}>German University in Cairo</p><p style={{display:"inline"}}>, Egypt</p>
+                  <p style={{fontStyle:'italic',display:'inline'}}>The German University in Cairo</p><p style={{display:"inline"}}>, Egypt</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement className="vertical-timeline-element--work" date="June 2021" iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff',transform:'scale(1.3)' }}
                       icon={<a color="white" href="https://www.researchgate.net/publication/353252131_Data_Augmentation_Techniques_on_Arabic_Data_for_Named_Entity_Recognition" target='_blank'><FaResearchgate color="white" size="2.5"/></a>}>

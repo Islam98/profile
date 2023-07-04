@@ -28,7 +28,7 @@ const Experience = () => {
                                         <div class="flex-container-RITEC">
                                             <h6>Remote&nbsp;</h6><h6 class="card-title"> (Full-Time)</h6>
                                         </div>
-                                        <p class="card-text">Used Looker and Google Sheets to review and analyze tables to help solve problems, make decisions (e.g: initialize bonuses to get more productivity, study performances and durations to take steps on improving performances), and identify key insights into the business to improve quality and have more output quantity. Used Appscript (JavaScript) to automate redundant operations</p>
+                                        <p class="card-text">Used Looker and Google Sheets to review and analyze tables to help solving problems, making decisions, and identify key insights into the business to improve quality and have more output quantity. Used Apps Script (JavaScript) to automate frequent operations</p>
                                         <p class="lead text-muted">January-June 2023</p>
                                     </div>
                                 </div>
