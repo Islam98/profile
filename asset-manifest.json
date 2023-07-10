@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.bc24fd9d.css",
-    "main.js": "/profile/static/js/main.d90d5349.js",
+    "main.js": "/profile/static/js/main.4a07e0fa.js",
     "static/js/787.b9ec5bb0.chunk.js": "/profile/static/js/787.b9ec5bb0.chunk.js",
     "static/media/Gameball_Achievement.jpg": "/profile/static/media/Gameball_Achievement.de47506aadaf9615b7fa.jpg",
     "static/media/Machine_Learning.jpg": "/profile/static/media/Machine_Learning.3279aaaf5cd21b45485c.jpg",
@@ -15,11 +15,11 @@
     "static/media/RITEC Logo.jpeg": "/profile/static/media/RITEC Logo.9c4c210b7b416faf159b.jpeg",
     "index.html": "/profile/index.html",
     "main.bc24fd9d.css.map": "/profile/static/css/main.bc24fd9d.css.map",
-    "main.d90d5349.js.map": "/profile/static/js/main.d90d5349.js.map",
+    "main.4a07e0fa.js.map": "/profile/static/js/main.4a07e0fa.js.map",
     "787.b9ec5bb0.chunk.js.map": "/profile/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc24fd9d.css",
-    "static/js/main.d90d5349.js"
+    "static/js/main.4a07e0fa.js"
   ]
 }
