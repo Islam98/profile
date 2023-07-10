@@ -28,7 +28,7 @@ const Experience = () => {
                                         <div class="flex-container-RITEC">
                                             <h6>Remote&nbsp;</h6><h6 class="card-title"> (Full-Time)</h6>
                                         </div>
-                                        <p class="card-text">Used Looker and Google Sheets (used built-in functions as VLookup, Match, Index, SumIFs, CountUniqueIFs, etc..) to review and analyze tables to help solving problems, making decisions, and identify key insights into the business to improve quality and have more output quantity. Used Apps Script (JavaScript) to automate frequent operations</p>
+                                        <p class="card-text">Used Looker and Google Sheets (i.e. MSExcel - Used built-in functions as VLookup, Match, Index, SumIFs, CountUniqueIFs, etc..) to review and analyze tables to help solving problems, making decisions, and identify key insights into the business to improve quality and have more output quantity. Used Apps Script (JavaScript) to automate frequent operations</p>
                                         <p class="lead text-muted">January-June 2023</p>
                                     </div>
                                 </div>
