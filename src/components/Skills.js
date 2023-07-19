@@ -15,19 +15,19 @@ const Skills = () => {
             </div>
             <div class="container bg-white bg-opacity-25 mt-5 p-3">
                 <div class="row g-3">
-                    <div class="col">
+                    <div class="col-4">
                         <div class="card text-center">
                             <div class="image"> <SiPython size="2em"/> </div> <span>Python</span>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <div class="card text-center">
                             <div class="image"> <FaJava size="2em"/> </div> <span>Java</span>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <div class="card text-center">
-                            <div class="image"> <img color="black" src={cshicon} height="32"/> </div> <span>C++/C#</span>
+                            <div class="image"> <img color="black" src={cshicon} height="32"/> </div> <span>C#</span>
                         </div>
                     </div>
                     <div class="col-4">

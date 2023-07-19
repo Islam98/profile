@@ -1,6 +1,7 @@
-import { useEffect, useRef, React } from 'react'
+// import { useEffect, useRef, React } from 'react'
+import { React } from 'react'
 import ppbgimg from './../Assets/bg_ppimg.jpg';
-import { init } from 'ityped';
+// import { init } from 'ityped';
 import Slide from '@mui/material/Slide';
 import { FaResearchgate, FaUserGraduate } from 'react-icons/fa';
 import { GiArchiveResearch } from "react-icons/gi";
@@ -51,11 +52,11 @@ const Home = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement className="vertical-timeline-element--work" date="June 2021" iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff',transform:'scale(1.3)' }}
                       icon={<a color="white" href="https://www.researchgate.net/publication/353252131_Data_Augmentation_Techniques_on_Arabic_Data_for_Named_Entity_Recognition" target='_blank'><FaResearchgate color="white" size="2.5"/></a>}>
-                  <h2 style={{textShadow: '1px 1px 2px #808080'}}> Published Data Augmentation Techniques paper in an NLP topic in ACLing 2021</h2> <p>(<a href="https://www.researchgate.net/publication/353252131_Data_Augmentation_Techniques_on_Arabic_Data_for_Named_Entity_Recognition" target="_blank">Open in ResearchGate</a>) </p>
+                  <h2 style={{textShadow: '1px 1px 2px #808080'}}> Published Data Augmentation Techniques paper in an NLP topic in ACLing 2021 conference</h2> <p>(<a href="https://www.researchgate.net/publication/353252131_Data_Augmentation_Techniques_on_Arabic_Data_for_Named_Entity_Recognition" target="_blank">Open in ResearchGate</a>) </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement className="vertical-timeline-element--work" date="July 2020" dateClassName="dateofBachelor"
                       iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff',transform:'scale(1.3)' }} icon={<GiArchiveResearch size="2.5"/>}>
-                  <h2 style={{textShadow: '1px 1px 2px #808080',display:'inline'}}> Bachelor Thesis research in Natural Language Processing with </h2> <h4 style={{textShadow: '1px 1px 4px #40E0D0',display:'inline',fontStyle:'italic'}}> Excellent Degree </h4>
+                  <h2 style={{textShadow: '1px 1px 2px #808080',display:'inline'}}> Bachelor Thesis research degree in Natural Language Processing with </h2> <h4 style={{textShadow: '1px 1px 4px #40E0D0',display:'inline',fontStyle:'italic'}}> Excellent Degree </h4>
                 </VerticalTimelineElement>
               </VerticalTimeline>
             </div>
