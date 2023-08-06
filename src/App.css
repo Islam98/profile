@@ -113,6 +113,9 @@ nav a.nav-link {
 .tab2 {
   border: none !important;
 }
+.tab3 {
+  border: none !important;
+}
 
 .tab1.active {
   margin-top: -0.25rem !important;
@@ -133,6 +136,17 @@ nav a.nav-link {
   border: none !important;
 }
 .tab2:hover {
+  border: none !important;
+}
+
+.tab3.active {
+  margin-top: -0.25rem !important;
+  position: relative;
+  z-index: 2 !important;
+  transform: scale(1.2) !important;
+  border: none !important;
+}
+.tab3:hover {
   border: none !important;
 }
 

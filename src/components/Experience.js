@@ -9,12 +9,13 @@ import SEcourse from './../Assets/Website.JPG';
 import AndroidStudiocourse from './../Assets/Android.JPG';
 import RITECLOGO from './../Assets/RITEC Logo.jpeg';
 import DandyLOGO from './../Assets/MeetDandy Logo2.jpg';
+import AWSCCP from './../Assets/aws-certified-cloud-practitioner.png';
 
 const Experience = () => {
     return (
         <div id="Exp" class="bg-dark mt-5 vh-150 overflow-hidden">
             <div class="justify-content-center align-items-center d-flex text-light">
-                <h1 style={{color:'#40E0D0'}}> Experience & Projects </h1>
+                <h1 style={{color:'#40E0D0'}}> Experience & Certificates </h1> {/*& Projects*/}
             </div>
             <Tabs className="tab" defaultActiveKey="experience" transition={true}>
                 <Tab tabClassName="tab1" eventKey="experience" title="Experience">
@@ -59,8 +60,24 @@ const Experience = () => {
                             </div>
                         </div>
                     </div>
+                </Tab><Tab tabClassName="tab2" eventKey="cers" title="Certificates">
+                    <div>
+                        <div class="row row-cols-auto row-cols-md-4 g-4">
+                            <div class="col">
+                                <div class="card border-info h-100">
+                                    <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
+                                        <img src={AWSCCP} class="card-img-top" alt={"AWS CCP"}/>
+                                    </a>
+                                    <div class="card-body bg-info bg-opacity-10">
+                                        <a href="https://www.credly.com/badges/e86b812c-6f6e-4918-b477-4121199553ea/public_url" target="_blank"><h5 class="card-title">AWS Certified Cloud Practitioner </h5></a>
+                                        <p class="card-text">August 2023</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </Tab>
-                <Tab tabClassName="tab2" eventKey="projects" title="Projects">
+                <Tab tabClassName="tab3" eventKey="projects" title="Projects">
                     <div>
                         <div class="row row-cols-auto row-cols-md-4 g-4">
                             <div class="col">

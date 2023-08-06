@@ -2,7 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import { AiFillGithub, AiFillFileText, AiFillLinkedin } from 'react-icons/ai';
+// import { AiFillGithub, AiFillFileText, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import styled from 'styled-components';
 
 
@@ -62,7 +63,7 @@ const Navbar = () => {
                 <SocialIconsDiv className="SocialIcons">
                     <SocialIcons href="https://github.com/Islam98"><AiFillGithub className="socialIconchangeColor" color="white" size="1.5rem"></AiFillGithub></SocialIcons> {/* choosed the color of the AiFill icon to be white, because the default on hover is switching to blue then switching to the color we set in the css for the socialIconchangeColor class */}
                     <SocialIcons href="https://www.linkedin.com/in/islam98"><AiFillLinkedin className="socialIconchangeColor" color="white" size="1.5rem"></AiFillLinkedin></SocialIcons>
-                    <SocialIcons href="https://drive.google.com/file/d/1O3rp0JQD18e4XS7ZQjEuEYdY4up38ly3/view?usp=sharing" target="_blank"><AiFillFileText className="socialIconchangeColor" color="white" size="1.5rem"></AiFillFileText></SocialIcons>
+                    {/* <SocialIcons href="https://drive.google.com/file/d/1O3rp0JQD18e4XS7ZQjEuEYdY4up38ly3/view?usp=sharing" target="_blank"><AiFillFileText className="socialIconchangeColor" color="white" size="1.5rem"></AiFillFileText></SocialIcons> */}
                     
                 </SocialIconsDiv>
             </div>
