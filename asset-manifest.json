@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.bc24fd9d.css",
-    "main.js": "/profile/static/js/main.5d131aa4.js",
+    "main.css": "/profile/static/css/main.587e9bdf.css",
+    "main.js": "/profile/static/js/main.bbfd37c8.js",
     "static/js/787.b9ec5bb0.chunk.js": "/profile/static/js/787.b9ec5bb0.chunk.js",
     "static/media/Gameball_Achievement.jpg": "/profile/static/media/Gameball_Achievement.de47506aadaf9615b7fa.jpg",
     "static/media/Machine_Learning.jpg": "/profile/static/media/Machine_Learning.3279aaaf5cd21b45485c.jpg",
@@ -10,16 +10,17 @@
     "static/media/Tazkarti_Team.jpg": "/profile/static/media/Tazkarti_Team.755fa30815e56b0baab6.jpg",
     "static/media/CareTech'19 _Bdaya'19.png": "/profile/static/media/CareTech'19 _Bdaya'19.763f9c757ef3156100f4.png",
     "static/media/Website.JPG": "/profile/static/media/Website.789a7830497f09d1f119.JPG",
+    "static/media/aws-certified-cloud-practitioner.png": "/profile/static/media/aws-certified-cloud-practitioner.bf3fd790643d5d68f9a7.png",
     "static/media/Android.JPG": "/profile/static/media/Android.bd6cd6c9d8d5de16c46b.JPG",
     "static/media/bg_ppimg.jpg": "/profile/static/media/bg_ppimg.4f62bff3f5c779324cec.jpg",
     "static/media/RITEC Logo.jpeg": "/profile/static/media/RITEC Logo.9c4c210b7b416faf159b.jpeg",
     "index.html": "/profile/index.html",
-    "main.bc24fd9d.css.map": "/profile/static/css/main.bc24fd9d.css.map",
-    "main.5d131aa4.js.map": "/profile/static/js/main.5d131aa4.js.map",
+    "main.587e9bdf.css.map": "/profile/static/css/main.587e9bdf.css.map",
+    "main.bbfd37c8.js.map": "/profile/static/js/main.bbfd37c8.js.map",
     "787.b9ec5bb0.chunk.js.map": "/profile/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc24fd9d.css",
-    "static/js/main.5d131aa4.js"
+    "static/css/main.587e9bdf.css",
+    "static/js/main.bbfd37c8.js"
   ]
 }
